@@ -1,0 +1,55 @@
+*, *:before,*:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: url(imagenes/try.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* Barra Navegacion*/  
+.menu{
+    background-color:black;
+    height: 75px;
+    width: 100vw;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    padding: 30px 30%;
+    font-weight: bold;
+    
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    
+
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 6px;
+
+}
+.menu_items li a{
+    text-decoration: none;
+    padding: 7px 13px;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+
+}
+.menu_items li:hover {
+    background-color: rgba(0, 0, 0, .3);
+    transition: 1s;
+}
+/*-------------------------------------------------------------------------*/
